@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    
+</head>
+<body>
+    <center>
+    <h1 class="title">FutbolMania</h1>
+
+    <!-- Filters -->
+    <h2 class="titulo2">Teams</h2>
+   <ul class="menu1">
+       <li><a href="show.html?team=FC+BARCELONA"><img src="./imgs/barcelona.png" class="team"></a></li>
+       <li><a href="show.html?team=REAL+MADRID"><img src="./imgs/Real.png" class="team"></a></li>
+       <li><a href="show.html?team=PSG"><img src="./imgs/psg.png" class="team"></a></li>
+       <li><a href="show.html?team=BAYERN+MUNICH"><img src="./imgs/bayer.png" class="team"></a></li>
+       <li><a href="show.html?team=BORUSSIA+DORTMUND"><img src="./imgs/borusia.png" class="team"></a></li>
+   </ul>
+   <br>
+   <h2 class="titulo2">Positions</h2>
+    <ul class="menu2">
+        <li><a href="show.html?position=GK"> <button class="botonmenu"> Goalkeeper</button></a></li>
+        <li><a href="show.html?position=DF"><button class="botonmenu">Defending</button></a></li>
+        <li><a href="show.html?position=MF"><button class="botonmenu">Midfield</button></a></li>
+        <li><a href="show.html?position=FW"><button class="botonmenu">Forward</button></a></li>
+    </ul>
+    <br>
+    <a href="./new.html"><button class="botonn">Add new player</button></a> <a href="/players"><button class="botonn">Show all players</button></a>
+    </center>
+
+    <div class="container" id="container">
+  
+        <div id="fichas2">
+        
+            <!-- <p><b>Name:</b> <%= player.name %></p>
+            <p><b>Age:</b> <%= player.age %> years</p> 
+            <p><b>position:</b> <%= player.position %></p>
+        
+            <p><b>Team:</b> <%= player.team %></p>  
+            <a href="/players/<%= player._id %>"><button class="btninformation">Information</button> </a> -->
+
+        </div>  
+        
+    </div>
+
+    <script src="./js/players.js"></script>
+
+</body>
+
+      
+</html>
